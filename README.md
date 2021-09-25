@@ -17,5 +17,6 @@ AND, OR, NAND, XOR
 
 ### 3.2 活性化関数
 
+[ステップ関数](ch03/step_function.py)
 
 
