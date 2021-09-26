@@ -1,19 +1,26 @@
-# coding: utf-8
-import sys, os
-sys.path.append(os.pardir)  # 親ディレクトリのファイルをインポートするための設定
+import sys
+import os
 import numpy as np
 import pickle
 from dataset.mnist import load_mnist
 from common.functions import sigmoid, softmax
 
+sys.path.append(os.pardir)  # 親ディレクトリのファイルをインポートするための設定
+
 
 def get_data():
+    """
+    MNISTデータセットからテスト画像とテストラベルを取得する。
+    """
     (x_train, t_train), (x_test, t_test) = load_mnist(normalize=True, flatten=True, one_hot_label=False)
     return x_test, t_test
 
 
 def init_network():
-    with open("sample_weight.pkl", 'rb') as f:
+    """
+    sample_weightに保存された学習済みの重みパラメータを読み込む。
+    """
+    with open("ch03/sample_weight.pkl", 'rb') as f:
         network = pickle.load(f)
     return network
 
@@ -35,13 +42,14 @@ def predict(network, x):
 x, t = get_data()
 network = init_network()
 
-batch_size = 100 # バッチの数
+# 100枚の画像を1バッチとして纏めて推論処理
+batch_size = 100  # バッチの数
 accuracy_cnt = 0
 
 for i in range(0, len(x), batch_size):
-    x_batch = x[i:i+batch_size]
+    x_batch = x[i:i + batch_size]
     y_batch = predict(network, x_batch)
     p = np.argmax(y_batch, axis=1)
-    accuracy_cnt += np.sum(p == t[i:i+batch_size])
+    accuracy_cnt += np.sum(p == t[i:i + batch_size])
 
 print("Accuracy:" + str(float(accuracy_cnt) / len(x)))

@@ -1,3 +1,15 @@
 
 @
-ch02/__init__.py,f\d\fdd50815a714db2a074e0439255092f6000137a5
+ch02/and_gate.py,3\2\3288597b77691ee0b116ce176778a1b37d979276
+A
+ch02/nand_gate.py,8\8\88907e6f39af1510906d79933466fdbe8e290368
+?
+ch02/or_gate.py,5\5\55db6adcaddcf2220830aa6e8478d76c85b32437
+@
+ch02/xor_gate.py,9\d\9d9efbbe603b7386bb2012771b364fb201427cc9
+E
+ch03/step_function.py,7\9\79e868f5489ab666a2383108794f8a768d36781d
+?
+ch03/sigmoid.py,b\c\bcaf94cb9d69e05dc391f6afa6f825e4aa60cc21
+<
+ch03/relu.py,4\5\453399aa27d4a8b235e98f39b740dff46429c66d
