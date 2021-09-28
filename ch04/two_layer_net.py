@@ -1,9 +1,9 @@
-# coding: utf-8
-import sys, os
-sys.path.append(os.pardir)  # 親ディレクトリのファイルをインポートするための設定
+import sys
+import os
 from common.functions import *
 from common.gradient import numerical_gradient
 import numpy as np
+sys.path.append(os.pardir)  # 親ディレクトリのファイルをインポートするための設定
 
 
 class TwoLayerNet:
@@ -46,6 +46,7 @@ class TwoLayerNet:
         loss_W = lambda W: self.loss(x, t)
         
         grads = {}
+        # common.numerical_gradientを呼んでいるため、再帰していない。
         grads['W1'] = numerical_gradient(loss_W, self.params['W1'])
         grads['b1'] = numerical_gradient(loss_W, self.params['b1'])
         grads['W2'] = numerical_gradient(loss_W, self.params['W2'])
