@@ -154,7 +154,37 @@ MNISTデータセットは手書き数字の画像セットで、0から9まで�
 
 [Sigmoidレイヤの実装(common/layers.py)](common/layers.py)
 
+### 5.6 Affine/Softmaxレイヤの実装
+
+[Affineレイヤの実装(common/layers.py)](common/layers.py)
+
+[Softmax-with-Lossレイヤの実装(common/layers.py)](common/layers.py)
+
+### 5.7 誤差逆伝播法の実装
+
+[誤差逆伝播法の実装](ch05/two_layer_net.py)
+
 ## 6. 学習に関するテクニック
+
+### 6.1 パラメータの更新
+
+ニューラルネットワークの学習の目的は、損失関数の値をできるだけ小さくするパラメータを見つけることである。
+これは最適なパラメータを見つける問題で、このような問題を解くことを最適化（Optimization）という。
+
+[確率的勾配降下法（SGD : Stochastic Gradient Descent）(common/optimizer.py)](common/optimizer.py)
+
+[Momentum(common/optimizer.py)](common/optimizer.py)
+
+[AdaGrad(common/optimizer.py)](common/optimizer.py)
+
+[Adam(common/optimizer.py)](common/optimizer.py)
+
+[最適化手法の比較(ch06/optimizer_compare_naive.py)](ch06/optimizer_compare_naive.py)
+
+[MNISTデータセットによる更新手法の比較(ch06/optimizer_compare_mnist.py)](ch06/optimizer_compare_mnist.py)
+
+### 6.2 重みの初期値
+
 
 ## 7. 畳み込みニューラルネットワーク
 
