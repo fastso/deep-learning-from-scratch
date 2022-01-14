@@ -1,0 +1,4 @@
+
+dpython:S2208"GImport only needed names or import the module and then use its members.(טיןרÿÿÿÿ
+mpython:S116"QRename this field "lastLayer" to match the regular expression ^[_a-z][_a-z0-9]*$.(‏ßז›üÿÿÿÿ
+npython:S1171"WRename this local variable "loss_W" to match the regular expression ^[_a-z][a-z0-9_]*$.(†¯ֽל

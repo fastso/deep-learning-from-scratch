@@ -13,3 +13,49 @@ E
 ch03/sigmoid.py,b\c\bcaf94cb9d69e05dc391f6afa6f825e4aa60cc21
 <
 ch03/relu.py,4\5\453399aa27d4a8b235e98f39b740dff46429c66d
+H
+ch03/sig_step_compare.py,2\2\228e73ecb23ef7ace121a47c6141b58f3ff74751
+B
+ch03/mnist_show.py,6\9\6966cd18a8b4ef86892fcfe5ee0711880bac6b5b
+M
+ch03/neuralnet_mnist_batch.py,1\7\17b7089290387b951b0b1adb73d49d8aa66da7f7
+@
+dataset/mnist.py,9\1\919f518e674010eb0515d223b0d4d2100c851f88
+G
+ch03/neuralnet_mnist.py,9\4\944e23ff4a4c87e42b0ec70fe783c116b227ea70
+C
+ch04/gradient_1d.py,1\c\1c40d6f64a3a72c29760ef371680768483dedc44
+G
+ch04/gradient_method.py,6\c\6ce33745db3e9c5160cffc8814966eddea67496e
+J
+ch04/gradient_simplenet.py,7\a\7a4aa23d0599a6e011e20d85cb74661a6e8a5bf0
+G
+ch04/train_neuralnet.py,3\e\3e4d017c1b7ab00d43db5e8bfbe5815d642c67bf
+C
+ch04/gradient_2d.py,4\5\4523d243a6fac8ddfb0ee5d987c69b43c203e576
+C
+ch05/layer_naive.py,9\0\90143ad122c8d1ce0a6eef6b65c17a7d4b39b5d8
+O
+ch06/optimizer_compare_mnist.py,c\2\c24e92eb56f5bd23eae27e87690dbd4ca9ec3b15
+O
+ch06/optimizer_compare_naive.py,1\1\1107d213bd26284b04ff71c6c66234b91294e0cd
+C
+common/optimizer.py,6\4\642f822c6e029079cce809352c03b9e71447326f
+E
+ch04/two_layer_net.py,e\c\ecce218a7f2fb5d1ab9d8ec00c3998f7f35428e5
+E
+ch05/two_layer_net.py,e\6\e6990e5445baeb2816a7329dddd96ab26b591893
+@
+common/layers.py,9\8\9841c72fbad9e551a2698a091b99f3810ec9bb65
+H
+ch05/buy_apple_orange.py,f\d\fd19c8c63003d670bdd1c1e5ec1d7769a3516608
+A
+ch05/buy_apple.py,8\7\87205ffa8c06e23c885576206ec8122ea6e0f129
+G
+ch06/overfit_dropout.py,c\2\c29b92c2110ffa6b1e6cecccd28c87a1a7399a5b
+<
+ch06/test.py,c\9\c9a4ba165fa4c6266c501818998b5f640a8edf70
+9
+	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
+X
+(ch06/weight_init_activation_histogram.py,3\d\3d01dc8d19a33fa26508bbbdedcbaa19815a76eb
